@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+body {
+    text-align: center;
+    height: 100%;
+    background-image: linear-gradient(35deg,#e96443,#904e95);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input[type=text] {
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+  }
+button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
