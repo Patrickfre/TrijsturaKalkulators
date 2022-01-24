@@ -50,7 +50,7 @@ function rezultats() {
                 const s = Math.round(laukums(m1, m2, m3) * 100) / 100;
                 t += "Tas ir vienādmalu trijstūris.";
             } else {
-                if(m1 == m2 || m2 == m3 || m3==m2){
+                if(m1 == m2 || m2 == m3 || m3==m1){
                     const p = perimetrs(m1, m2, m3);
                     const s = Math.round(laukums(m1, m2, m3) * 100) / 100;
                     t += "Tas ir vienādsānu trijstūris.";
